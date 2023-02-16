@@ -2,3 +2,4 @@
 - 1-compiler: Compile but do not link
 - 2-compiler: Generate assembly code but don't link
 - 3-name: Create an executable from c file
+- 4-puts.c: Prints message using puts
