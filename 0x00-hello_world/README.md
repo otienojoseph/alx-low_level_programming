@@ -3,3 +3,4 @@
 - 2-compiler: Generate assembly code but don't link
 - 3-name: Create an executable from c file
 - 4-puts.c: Prints message using puts
+- 5-printf.c: Print using printf
