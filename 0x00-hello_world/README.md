@@ -1,2 +1,3 @@
 - 0-preprocessor: Take a C file and compile it
 - 1-compiler: Compile but do not link
+- 2-compiler: Generate assembly code but don't link
