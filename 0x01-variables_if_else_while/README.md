@@ -1,1 +1,2 @@
 - 0-positive_or_negative: Print wether random number is positive or negative
+- 1-last_digit: Print last digit and wether it is greater than 5, less than 6 or equal to 0
