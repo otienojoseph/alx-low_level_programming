@@ -6,3 +6,4 @@
 - 5-printf.c: Print using printf
 - 6-size.c: Print sizeof types
 - 100-intel: Script that generates assembly code
+- 101-quote.c: Print to stderr
