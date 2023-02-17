@@ -4,7 +4,7 @@
  * main - Print all letters except 'q' and 'e'
  * Return: return (0) success
  */
-int main()
+int main(void)
 {
 	char letter;
 
