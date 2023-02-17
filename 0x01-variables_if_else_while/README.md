@@ -5,3 +5,4 @@
 - 4-print_alphabet: Print alphabets in lowercase except 'e' and 'q'
 - 5-print_numbers: Print numbers from 0 - 9
 - 6-print_numberz: Print numbers using putchar
+- 7-print_tebahpla: Print alphabet in reverse
