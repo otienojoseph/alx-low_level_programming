@@ -2,3 +2,4 @@
 - 1-last_digit: Print last digit and wether it is greater than 5, less than 6 or equal to 0
 - 2-print_alphabet: Print alphabet in lowercase
 - 3-print_alphabets: Print alphabets in lower and upper case
+- 4-print_alphabet: Print alphabets in lowercase except 'e' and 'q'
