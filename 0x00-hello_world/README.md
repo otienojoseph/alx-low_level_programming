@@ -4,3 +4,4 @@
 - 3-name: Create an executable from c file
 - 4-puts.c: Prints message using puts
 - 5-printf.c: Print using printf
+- 6-size.c: Print sizeof types
