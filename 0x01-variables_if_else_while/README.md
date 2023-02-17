@@ -6,3 +6,4 @@
 - 5-print_numbers: Print numbers from 0 - 9
 - 6-print_numberz: Print numbers using putchar
 - 7-print_tebahpla: Print alphabet in reverse
+- 8-print_base16: Print base16
