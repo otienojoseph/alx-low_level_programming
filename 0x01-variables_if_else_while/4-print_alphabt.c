@@ -4,11 +4,11 @@
  * main - Print all letters except 'q' and 'e'
  * Return: return (0) success
  */
-int main(void)
+int main()
 {
-	char letter = 'a';
+	char letter;
 
-	for (letter; letter <= 'z'; letter++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
 		if (letter == 'e' || letter == 'q')
 		{
