@@ -4,3 +4,4 @@
 - 3-print_alphabets: Print alphabets in lower and upper case
 - 4-print_alphabet: Print alphabets in lowercase except 'e' and 'q'
 - 5-print_numbers: Print numbers from 0 - 9
+- 6-print_numberz: Print numbers using putchar
