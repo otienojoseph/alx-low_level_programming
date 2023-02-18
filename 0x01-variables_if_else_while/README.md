@@ -8,3 +8,4 @@
 - 7-print_tebahpla: Print alphabet in reverse
 - 8-print_base16: Print base16
 - 9-print_comb: Print all combinations of single integers
+- 100-print_comb3: Print unique double digits
