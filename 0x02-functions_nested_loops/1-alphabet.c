@@ -1,16 +1,9 @@
 #include "main.h"
 
-void print_alphabet(void);
-
 /**
- * main - Print alphabet in lowercase
- * Return: return 0
+ * print_alphabet - Print alphabets from a to z
+ * Return: return void
  */
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
 
 void print_alphabet(void)
 {
