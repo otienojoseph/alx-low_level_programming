@@ -9,3 +9,4 @@
 - 6-abs: Return absolute value of an integer
 7-print_last_digit: Print last digit of a number
 - 8-24_hours: Print from 00:00 to 23:59
+- 9-times_table: Print 9 times table
