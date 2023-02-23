@@ -7,3 +7,4 @@
 - 4-isalpha: Check wether character is alphabet or not
 - 5-sign: Check sign of number and print it
 - 6-abs: Return absolute value of an integer
+7-print_last_digit: Print last digit of a number
