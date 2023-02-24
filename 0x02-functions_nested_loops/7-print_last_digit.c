@@ -13,6 +13,11 @@ int print_last_digit(int n)
 
 	last_digit = n % 10;
 
+	if (n < 0)
+	{
+		last_digit *= -1;
+	}
+
 	if (n == INT_MIN)
 	{
 		last_digit = 8;
@@ -20,11 +25,6 @@ int print_last_digit(int n)
 	else if (n == INT_MAX)
 	{
 		last_digit = 7;
-	}
-
-	if (n < 0)
-	{
-		last_digit *= -1;
 	}
 
 	_putchar(last_digit + '0');
