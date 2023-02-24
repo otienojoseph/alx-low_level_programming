@@ -13,4 +13,8 @@
 	int add(int, int);
 	void print_to_98(int n);
 	void print_times_table(int n);
+	void check_if_greater_than_15(int);
+	void check_product_less_than_10(int);
+	void check_product_less_than_100(int);
+	void check_product_greater_than_100(int);
 #endif

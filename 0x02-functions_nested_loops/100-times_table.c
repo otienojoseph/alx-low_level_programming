@@ -10,15 +10,13 @@ void print_times_table(int n)
 {
 	int i, j, product;
 
+	check_if_greater_than_15(n);
+
 	for (i = 0; i <= n; i++)
 	{
 		for (j = 0; j <= n; j++)
 		{
 			product = i * j;
-
-			if (n > 15 || n < 0)
-				continue;
-
 			if (j == 0)
 			{
 				_putchar(product + '0');
@@ -29,27 +27,68 @@ void print_times_table(int n)
 
 				if (product < 10)
 				{
-					_putchar(' ');
-					_putchar(' ');
-					_putchar(product % 10 + '0');
+					check_product_less_than_10(product);
 				}
 				else if (product < 100)
 				{
-					_putchar(' ');
-					_putchar((product / 10) + '0');
-					_putchar((product % 10) + '0');
+					check_product_less_than_100(product);
 				}
 				else
 				{
-					_putchar(' ');
-					_putchar((product / 100) + '0');
-					_putchar(((product / 10) % 10) + '0');
-					_putchar((product % 10) + '0');
+					check_product_greater_than_100(product);
 				}
 			}
 		}
 		_putchar('\n');
 	}
-
 }
 
+/**
+ * check_if_greater_than_15 - Check if n > 15
+ * @n: param
+ * Return: void
+ */
+void check_if_greater_than_15(int n)
+{
+	if (n < 0 || n > 15)
+	{
+		return;
+	}
+}
+
+/**
+ * check_product_less_than_10 - Check product < 10
+ * @product: param
+ * Return: void
+ */
+void check_product_less_than_10(int product)
+{
+	_putchar(' ');
+	_putchar(' ');
+	_putchar(product % 10 + '0');
+}
+
+/**
+ * check_product_less_than_100 - Check product < 100
+ * @product: param
+ * Return: void
+ */
+void check_product_less_than_100(int product)
+{
+	_putchar(' ');
+	_putchar((product / 10) + '0');
+	_putchar((product % 10) + '0');
+}
+
+/**
+ * check_product_greater_than_100 - Check product > 100
+ * @product: param
+ * Return: void
+ */
+void check_product_greater_than_100(int product)
+{
+	_putchar(' ');
+	_putchar((product / 100) + '0');
+	_putchar(((product / 10) % 10) + '0');
+	_putchar((product % 10) + '0');
+}
