@@ -12,3 +12,4 @@
 - 9-times_table: Print 9 times table
 - 10-add: Add two numbers and return result
 - 11-print_to_98: Print to 98
+- 100-times_table: Print times table
