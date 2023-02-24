@@ -10,12 +10,15 @@ void print_times_table(int n)
 {
 	int i, j, product;
 
-	check_if_greater_than_15(n);
-
 	for (i = 0; i <= n; i++)
 	{
 		for (j = 0; j <= n; j++)
 		{
+			if (n < 0 || n > 15)
+			{
+				return;
+			}
+
 			product = i * j;
 			if (j == 0)
 			{
@@ -40,19 +43,6 @@ void print_times_table(int n)
 			}
 		}
 		_putchar('\n');
-	}
-}
-
-/**
- * check_if_greater_than_15 - Check if n > 15
- * @n: param
- * Return: void
- */
-void check_if_greater_than_15(int n)
-{
-	if (n < 0 || n > 15)
-	{
-		return;
 	}
 }
 
