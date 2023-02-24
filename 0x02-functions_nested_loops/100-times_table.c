@@ -55,6 +55,7 @@ void check_product_less_than_10(int product)
 {
 	_putchar(' ');
 	_putchar(' ');
+	_putchar(' ');
 	_putchar(product % 10 + '0');
 }
 
@@ -65,6 +66,7 @@ void check_product_less_than_10(int product)
  */
 void check_product_less_than_100(int product)
 {
+	_putchar(' ');
 	_putchar(' ');
 	_putchar((product / 10) + '0');
 	_putchar((product % 10) + '0');
@@ -77,6 +79,7 @@ void check_product_less_than_100(int product)
  */
 void check_product_greater_than_100(int product)
 {
+	_putchar(' ');
 	_putchar((product / 100) + '0');
 	_putchar(((product / 10) % 10) + '0');
 	_putchar((product % 10) + '0');
