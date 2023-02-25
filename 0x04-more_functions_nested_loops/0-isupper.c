@@ -15,7 +15,7 @@ int _isupper(int c)
 
 	while (alpha < 'Z')
 	{
-		if (alpha == c)
+		if (c == alpha)
 		{
 			validate = 1;
 			break;
@@ -29,5 +29,4 @@ int _isupper(int c)
 		alpha++;
 	}
 	return (validate);
-
 }
