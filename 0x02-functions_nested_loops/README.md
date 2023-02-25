@@ -16,3 +16,4 @@
 - 102-fibonacci: Print the first 50 fibonacci numbers
 - 101-natural: Return sum of multiples of 3 n 5 from 0 - 1024(not included)
 - 103-fibonacci: Print sum of all fibs less than 4000000
+- 104-fibonacci: Print first 98 fibs
