@@ -7,23 +7,23 @@
 
 int main(void)
 {
-	double a, b, c;
+	int a, b, c;
 	int i;
 
 	a = 1.0;
 	b = 2.0;
 
-	printf("%f, %f", a, b);
+	printf("%u, %u, ", a, b);
 
 	for (i = a; i < 98; i++)
 	{
 		c = a + b;
 
-		printf("%f, ", c);
+		printf("%u, ", c);
 		a = b;
 		b = c;
 	}
-	printf("%f", c);
+	printf("%u", c);
 	printf("\n");
 
 	return (0);
