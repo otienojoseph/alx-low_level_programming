@@ -7,8 +7,7 @@
 
 int main(void)
 {
-	long long sum;
-	long a, b;
+	int sum, a, b;
 
 	sum = 0;
 
@@ -24,7 +23,7 @@ int main(void)
 		b = a + b;
 	}
 
-	printf("%lli", sum);
+	printf("%i", sum);
 	printf("\n");
 
 	return (0);
