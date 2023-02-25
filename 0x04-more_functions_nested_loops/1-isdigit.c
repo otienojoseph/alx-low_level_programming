@@ -8,18 +8,9 @@
 
 int _isdigit(int c)
 {
-	int digit;
-
-	digit = 0;
-
-	while (digit < 10)
+	if (c >= '0' && c <= '9')
 	{
-		if (c == digit + '0')
-		{
-			return (1);
-		}
-
-		digit++;
+		return (1);
 	}
 	return (0);
 }
