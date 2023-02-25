@@ -14,3 +14,4 @@
 - 11-print_to_98: Print to 98
 - 100-times_table: Print times table
 - 102-fibonacci: Print the first 50 fibonacci numbers
+- 101-natural: Return sum of multiples of 3 n 5 from 0 - 1024(not included)
