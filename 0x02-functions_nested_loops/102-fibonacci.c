@@ -7,21 +7,23 @@
 
 int main(void)
 {
-	int i, j, k, l;
+	int k;
+	long i, j, l;
 
-	i = 1, j = 1;
+	i = 1, j = 2;
 
-	printf("%d, %d, ", i, j);
+	printf("%ld, %ld, ", i, j);
 
-	for (k = 2; k < 50; k++)
+	for (k = 3; k < 49; k++)
 	{
 		l = i + j;
-		printf("%d, ", l);
-		
+		printf("%ld, ", l);
+
 		/* update value of i to j and j to k */
 		i = j;
-		j = k;
+		j = l;
 	}
+	printf("%ld", i + j);
 	printf("\n");
 
 	return (0);
