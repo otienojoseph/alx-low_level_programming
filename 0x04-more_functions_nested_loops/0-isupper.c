@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * _isupper - Checks for uppercase
@@ -9,20 +9,17 @@
 int _isupper(int c)
 {
 	char alpha;
-	int validate;
 
-	for (alpha = 'A'; alpha <= 'Z'; alpha++)
+	alpha = 'A';
+
+	while (alpha <= 'Z')
 	{
 		if (c == alpha)
 		{
-			validate = 1;
-			break;
+			return 1;
 		}
-		else
-		{
-			validate = 0;
-			break;
-		}
+
+		alpha++;
 	}
-	return (validate);
+	return 0;
 }
