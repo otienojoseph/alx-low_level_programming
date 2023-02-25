@@ -16,10 +16,10 @@ int _isupper(int c)
 	{
 		if (c == alpha)
 		{
-			return 1;
+			return (1);
 		}
 
 		alpha++;
 	}
-	return 0;
+	return (0);
 }
