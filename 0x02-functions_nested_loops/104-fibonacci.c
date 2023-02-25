@@ -9,8 +9,8 @@ int main(void)
 {
 	long a, b, c, i;
 
-	a = 1.0;
-	b = 2.0;
+	a = 1;
+	b = 2;
 
 	printf("%lu, %lu, ", a, b);
 
