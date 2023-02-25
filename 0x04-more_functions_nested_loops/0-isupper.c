@@ -11,9 +11,7 @@ int _isupper(int c)
 	char alpha;
 	int validate;
 
-	alpha = 'A';
-
-	while (alpha < 'Z')
+	for (alpha = 'A'; alpha <= 'Z'; alpha++)
 	{
 		if (c == alpha)
 		{
@@ -25,8 +23,6 @@ int _isupper(int c)
 			validate = 0;
 			break;
 		}
-
-		alpha++;
 	}
 	return (validate);
 }
