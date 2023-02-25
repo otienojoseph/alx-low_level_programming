@@ -13,3 +13,4 @@
 - 10-add: Add two numbers and return result
 - 11-print_to_98: Print to 98
 - 100-times_table: Print times table
+- 102-fibonacci: Print the first 50 fibonacci numbers
