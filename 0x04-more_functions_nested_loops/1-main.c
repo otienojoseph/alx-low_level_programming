@@ -10,7 +10,8 @@ int main(void)
     char c;
 	int n;
 
-    c = '0';
+    c = '2';
+
 	n = _isdigit(c);
     _putchar(c);
     _putchar(':');

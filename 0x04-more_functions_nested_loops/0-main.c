@@ -13,6 +13,19 @@ int main(void)
 	c = 'A';
 	n = _isupper(c);
 
+	_putchar(c);
+	_putchar(':');
+	_putchar(' ');
+	_putchar(n + '0');
+	_putchar('\n');
+	
+
+	c = 'B';
+	n = _isupper(c);
+	
+	_putchar(c);
+	_putchar(':');
+	_putchar(' ');
 	_putchar(n + '0');
 	_putchar('\n');
 
