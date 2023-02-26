@@ -2,6 +2,7 @@
 
 /**
  * print_triangle - Print triangle with size
+ * @size: param
  * Return: void
  */
 
