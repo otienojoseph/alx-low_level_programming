@@ -9,3 +9,4 @@
 - 6-print_line: Print straight line
 - 7-print_diagonal: Print diagonal line
 - 8-print_square: Print square
+- 9-fizz_buzz: Print FizzBuzz
