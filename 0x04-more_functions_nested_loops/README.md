@@ -8,3 +8,4 @@
 - 5-more_numbers: Print 10 times the numbers from 0 to 14
 - 6-print_line: Print straight line
 - 7-print_diagonal: Print diagonal line
+- 8-print_square: Print square
