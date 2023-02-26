@@ -11,11 +11,7 @@ int main(void)
 	int n;
 
 	n = 0;
-
-	if (positive_or_negative(n))
-	{
-		printf("%d is 0", n);
-	}
+	positive_or_negative(n);
 
 	return (0);
 }
