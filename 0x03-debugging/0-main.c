@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -12,5 +11,6 @@ int main(void)
 
 	n = 0;
 	positive_or_negative(n);
+
 	return (0);
 }
