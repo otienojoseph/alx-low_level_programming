@@ -11,3 +11,5 @@
 - 8-print_square: Print square
 - 9-fizz_buzz: Print FizzBuzz
 - 10-print_traingle: Print triangle
+- 100-prime_factor: Print largest prime factor
+- 101-print_number: Print an integer
