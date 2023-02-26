@@ -1,3 +1,6 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -7,7 +10,12 @@
 
 int main(void)
 {
-	positive_or_negative(0);
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+
+	positive_or_negative(n);
 
 	return (0);
 }
