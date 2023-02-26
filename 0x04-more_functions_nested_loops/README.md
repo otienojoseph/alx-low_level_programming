@@ -10,3 +10,4 @@
 - 7-print_diagonal: Print diagonal line
 - 8-print_square: Print square
 - 9-fizz_buzz: Print FizzBuzz
+- 10-print_traingle: Print triangle
