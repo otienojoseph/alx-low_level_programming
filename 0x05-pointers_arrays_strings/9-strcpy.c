@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strcpy: Copy string pointed to by src, including the terminating nullbyte
+ * _strcpy - Copy str pointed to by src including the terminating nullbyte
  * @dest: param
  * @src: param
  * Return: Pointer to dest
@@ -9,18 +9,16 @@
 
 char *_strcpy(char *dest, char *src)
 {
-	char d[100];
 	int i;
 
-	d = dest;
 	i = 0;
 
-	while (src[i] != '\n')
+	while (src[i] != '\0')
 	{
-		d[i] = src[i];
+		dest[i] = src[i];
 		i++;
 	}
-	d[i] = '\n';
+	dest[i] = '\0';
 
-	return dest;
+	return (dest);
 }
