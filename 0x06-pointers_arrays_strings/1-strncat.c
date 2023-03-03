@@ -1,25 +1,26 @@
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
 
 /**
 * _strncat - Concatenate two strings and don't need
 * to be null terminated
 * @dest: param pointer
 * @src: param pointer
-* n: int param
+* @n: int param
 * Return: char pointer
 */
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int i, size_dest;
+	int i, j;
 
-	size_dest = sizeof(dest);
+	i = strlen(dest);
 
-	for (i = 0; i < n && src[i] != '\0'; i++)
+	for (j = 0; j < n && src[j] != '\0'; j++, i++)
 	{
-		 dest[size_dest  + i] = src[i];
+		dest[i] = src[j];
 	}
-	dest[n + i] = '\0';
-
+	dest[i] = '\0';
 	return (dest);
 }
