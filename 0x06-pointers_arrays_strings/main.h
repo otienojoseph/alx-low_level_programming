@@ -5,4 +5,5 @@
 	char *_strncat(char *dest, char *src, int n);
 	char *leet(char *);
 	char *string_toupper(char *);
+	char *_strncpy(char *dest, char *src, int n);
 #endif
