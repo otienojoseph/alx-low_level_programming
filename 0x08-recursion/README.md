@@ -5,3 +5,4 @@
 - 2-strlen_recursion: Return length of string
 - 3-factorial: Print factorial of a number
 - 4-pow_recursion: Return x raised to power of y
+- 5-sqrt_recursion: Return sqrt of natural number
