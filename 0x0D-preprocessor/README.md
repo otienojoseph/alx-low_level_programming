@@ -2,3 +2,4 @@
 - 1-pi: file that defines a macro named PI as an abbreviation for the token 3.14159265359
 - 2-main.c: Print the name of the file called in
 - 3-function_like_macro: macro ABS(x) that computes the absolute value of a number x
+- 4-sum:  macro SUM(x, y) that computes the sum of the numbers x and y
