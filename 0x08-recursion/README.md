@@ -6,3 +6,4 @@
 - 3-factorial: Print factorial of a number
 - 4-pow_recursion: Return x raised to power of y
 - 5-sqrt_recursion: Return sqrt of natural number
+- 6-is_prime_number: Return 1 if number is prime
