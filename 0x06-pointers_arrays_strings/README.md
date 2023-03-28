@@ -5,4 +5,5 @@
 - 2-strncpy: Copies a string
 - 3-strcmp: Compare two strings
 - 5-string_toupper: Changes all lowercase letters of a string to uppercase
+- 6-cap_string: Capitalize all letter of string
 - 7-leet: Function that encodes a string into 1337(leet)
