@@ -6,3 +6,4 @@
 - 3-strspn: Return length of substring of string
 - 4-strpbrk: Searches a string for any of a set of bytes
 - 5-strstr: Find location of substring
+- 7-print_chessboard: Prints chessboard
