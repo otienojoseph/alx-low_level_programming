@@ -7,7 +7,7 @@
  * alloc_grid function.
  * @grid: matrix double pointer
  * @height: rows (pointer)
- * Return: void 
+ * Return: void
  */
 void free_grid(int **grid, int height)
 {
