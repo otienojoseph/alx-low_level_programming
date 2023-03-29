@@ -1,1 +1,2 @@
 - dog.h: Define struct dog
+- 1-init_dog: Initialize variable type struct_dog
