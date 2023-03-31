@@ -4,3 +4,4 @@
 - 2-add_node: Add new node at the beginning of list
 - 3-add_node_end: Add node to the end
 - 4-free_list: Frees list_t list
+- 100-first: Print string before main is executed
