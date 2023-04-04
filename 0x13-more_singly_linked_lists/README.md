@@ -6,3 +6,4 @@
 - 3-add_nodeint_end: Add node at the end of listint_t
 - 4-free_listint.c: Frees listint_t list
 - 5-free_listint2: Frees listint_t list
+- 6-pop_listint: Deletes the head node of listint_t and returns the nodes data
