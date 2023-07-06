@@ -6,11 +6,11 @@
 
 int _strlen_recursion(char *s)
 {
-	/* base case */ 
+	/* base case */
 	if (*s == '\0')
 	{
 		return (0);
 	}
 	/* call function with the value of the next pointer */
-	return 1 + _strlen_recursion(s + 1);
+	return (1 + _strlen_recursion(s + 1));
 }
