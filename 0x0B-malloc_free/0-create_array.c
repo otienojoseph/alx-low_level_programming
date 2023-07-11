@@ -21,10 +21,18 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 
-	for (i = 0; i < size; i++)
+	if (ptr_str != NULL)
 	{
-		ptr_str[i] = c;
-	}
 
-	return (ptr_str);
+		for (i = 0; i < size; i++)
+		{
+			ptr_str[i] = c;
+		}
+
+		return (ptr_str);
+	}
+	else
+	{
+		return (NULL);
+	}
 }
