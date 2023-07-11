@@ -20,6 +20,19 @@ char *str_concat(char *s1, char *s2)
 
 	ptr_str = (char *) malloc(total_len * sizeof(char));
 
+    if (s1 == NULL && s2 == NULL)
+    {
+        return (NULL);
+    }
+    else if (s1 == NULL)
+    {
+        return strdup(s2);
+    }
+    else if (s2 == NULL)
+    {
+        return strdup(s1);
+    }
+
 	if (ptr_str != NULL)
 	{
 		for (i = 0; s1[i]; i++)
