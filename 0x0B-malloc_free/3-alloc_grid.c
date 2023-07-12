@@ -42,7 +42,7 @@ int **alloc_grid(int width, int height)
 		}
 
 		/* Initialize each element of the row to 0 */
-		for (int j = 0; j < width; j++)
+		for (j = 0; j < width; j++)
 		{
 			grid_Dptr[i][j] = 0;
 		}
