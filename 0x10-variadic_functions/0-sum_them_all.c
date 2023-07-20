@@ -3,7 +3,7 @@
 
 /**
  * sum_them_all - Return the sum of all parameters
- * @n: param
+ * @n: count of args passed
  * Return: Sum of all params
  */
 
@@ -12,8 +12,8 @@ int sum_them_all(const unsigned int n, ...)
 	va_list args;
 	unsigned int result, i;
 
-    if (n == 0)
-        return (0);
+	if (n == 0)
+		return (0);
 
 	result = 0;
 	va_start(args, n);
