@@ -15,17 +15,16 @@ void print_all(const char * const format, ...)
 	int i = 0;
 	char *string_val;
 
-	va_start(args, format);
-
 	if (format[i] == '\0')
 	{
 		putchar('\n');
 		exit(0);
 	}
 
+	va_start(args, format);
+
 	while (format[i] != '\0')
 	{
-
 		switch (format[i])
 		{
 			case 'c':
@@ -39,9 +38,7 @@ void print_all(const char * const format, ...)
 				break;
 			case 's':
 				string_val = va_arg(args, char *);
-				if (string_val == NULL)
-					printf("(nil)");
-				printf("%s", string_val);
+				printf("%s", string_val != NULL ? string_val : "(nil)");
 				break;
 			default:
 				i++;
