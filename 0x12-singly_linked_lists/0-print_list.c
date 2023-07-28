@@ -6,27 +6,29 @@
  * @h: struct pointer
  * Return: number of nodes in list
  */
-size_t print_list(const list_t *h)
+int print_list(const list_t *h)
 {
-	size_t count;
+	int count;
+	const list_t *head;
 
+	head = h;
 	count = 0;
 
-	while (h != NULL)
+	while (head != NULL)
 	{
 		count++;
 
-		if (h->str == NULL)
+		if (head->str == NULL)
 		{
 			printf("[0] (nil)\n");
-			return (1);
+			head = head->next;
 		}
 
-		printf("[%d] ", h->len);
-		printf("%s\n", h->str);
+		printf("[%d] ", head->len);
+		printf("%s\n", head->str);
 
-		h = h->next;
+		head = head->next;
 	}
-	
+
 	return (count);
 }
