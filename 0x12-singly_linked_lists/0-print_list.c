@@ -22,6 +22,7 @@ int print_list(const list_t *h)
 		{
 			printf("[0] (nil)\n");
 			head = head->next;
+            count++;
 		}
 
 		printf("[%d] ", head->len);
