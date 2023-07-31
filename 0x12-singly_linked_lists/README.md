@@ -4,3 +4,4 @@
 - 2-add_node - Add node to the beginning of list and return pointer
 - 3-add_node_end - Add node to the end of the linked list and return pointer
 - 4-free_list - Free memory from struct
+- 100-first - Print string before main function
