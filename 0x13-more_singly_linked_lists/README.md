@@ -5,3 +5,4 @@
 - 4-free_listint - Free listint_t list
 - 5-free_listint2 - Free listint_t list version 2
 - 6-pop_listint - Delete head node and return node data
+- 7-get_nodeint - Return the nth node of a linked list
