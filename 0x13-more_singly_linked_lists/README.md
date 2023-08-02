@@ -7,3 +7,4 @@
 - 6-pop_listint - Delete head node and return node data
 - 7-get_nodeint - Return the nth node of a linked list
 - 8-sum_listint - Return sum of node data of list
+- 9-insert_nodeint - Insert node at given position
