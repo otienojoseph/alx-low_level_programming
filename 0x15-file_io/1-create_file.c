@@ -8,9 +8,10 @@
  */
 int create_file(const char *filename, char *text_content)
 {
-	int fd;
+	int fd, len;
 	ssize_t bytes_written;
-
+	
+	len = 0;
 	if (filename == NULL)
 		return (-1);
 
@@ -21,19 +22,14 @@ int create_file(const char *filename, char *text_content)
 		return (-1);
 	}
 
-	if (text_content != NULL)
-	{
-		bytes_written = write(fd, text_content, strlen(text_content));
+	while (text_content && *(text_content + len))
+		len++;
 
-		if (bytes_written == -1)
-		{
-			perror("fail\n");
-			close(fd);
-			return (-1);
-		}
-	}
-
+	bytes_written = write(fd, text_content, len);
 	close(fd);
+
+	if (bytes_written < 0)
+		return (-1);
 
 	return (1);
 }
