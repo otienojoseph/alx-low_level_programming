@@ -7,10 +7,10 @@
  */
 void print_binary(unsigned long int n)
 {
-    if (n > 1)
+	if (n > 1)
 	{
 		/* Equivalent to dividing the number by 2 */
 		print_binary(n >> 1);
 	}
-    _putchar('0' + (n & 1));
+	_putchar('0' + (n & 1));
 }
