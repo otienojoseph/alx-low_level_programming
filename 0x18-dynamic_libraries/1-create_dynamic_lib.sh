@@ -3,7 +3,7 @@
 # find all .c files that don't begin with a digit
 result=$(find . -type f -name "*c" ! -name "[0-9]*.c")
 # compile to object files
-gcc -c -fPIC $result
+gcc -c -fPIC -c $result
 # create shared library
 gcc -shared -o liball.so *.o
 
