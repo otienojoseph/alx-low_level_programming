@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _puts- Entry point
  * @s: parameter
@@ -5,5 +7,4 @@
  */
 void _puts(char *s)
 {
-	return (0);
 }

@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _strncpy- Entry point
  * @dest: param1

@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _memset- Entry point
  * @s: param1

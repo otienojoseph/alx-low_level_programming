@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _strlen- Entry point
  * @s: parameter

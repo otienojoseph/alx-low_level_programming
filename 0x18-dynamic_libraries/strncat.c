@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _strncat- Entry point
  * @dest: param1

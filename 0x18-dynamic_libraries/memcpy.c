@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _memcpy- Entry point
  * @dest: param1
