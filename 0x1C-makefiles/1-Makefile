@@ -3,7 +3,7 @@ SRC=*.c
 
 all: school
 
-school: main.c school.c
+school: $(SRC)
 	$(CC) $(SRC) -o school
 
 clean:
