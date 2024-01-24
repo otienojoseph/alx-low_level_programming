@@ -12,13 +12,14 @@ $(NAME): $(OBJ)
 %.o: %.c
 	$(CC) -c -o $@ $<
 
+.PHONY: oclean clean fclean re
+
 oclean:
 	rm -f $(OBJ)
 
 clean:
 	rm -f *~ *.swp *.swo *.swn *.bak $(NAME)
 
-fclean:
-	rm -f *~ *.swp *.swo *.swn *.bak $(NAME) $(OBJ)
+fclean: clean oclean
 
 re: fclean all
