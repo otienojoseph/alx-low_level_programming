@@ -5,15 +5,18 @@
  * @h: pointer to head
  * Return: Number of nodes on linked list
  */
-size_t print_dlistint(const dlistint_t *h) {
-  int count;
+size_t print_dlistint(const dlistint_t *h)
+{
+	int count;
 
-  count = 0;
-  while (h != NULL) {
-    printf("%d\n", h->n);
-    count++;
-    h = h->next;
-  }
+	count = 0;
 
-  return (count);
+	while (h != NULL)
+	{
+		printf("%d\n", h->n);
+		count++;
+		h = h->next;
+	}
+
+	return (count);
 }
