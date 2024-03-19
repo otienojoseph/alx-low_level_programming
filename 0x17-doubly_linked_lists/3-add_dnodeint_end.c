@@ -17,26 +17,25 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 		return (NULL);
 	}
 
-	/* *head pointer */
-	last = *head;
-
 	new->n = n;
 	new->next = NULL;
-    new->prev = NULL;
+	new->prev = NULL;
 
-    *head = new;
+	/* check if head is NULL */
+	if (*head == NULL)
+	{
+		*head = new;
+	}
+	else {
+		last = *head;
 
-    if (last != NULL)
-    {
-        while (last->next != NULL)
-        {
-            last = last->next;
-        }
-        printf("%d\n", last->n);
-        last->next = new;
-        new->prev = last;
-    }
-
+		while (last->next != NULL)
+		{
+			last = last->next;
+		}
+		last->next = new;
+		new->prev = last;
+	}
 
 	return (new);
 }
