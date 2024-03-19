@@ -22,7 +22,9 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 
 	new->n = n;
 	new->next = NULL;
-	new->prev = last;
+    new->prev = NULL;
+
+    *head = new;
 
     if (last != NULL)
     {
@@ -32,9 +34,9 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
         }
         printf("%d\n", last->n);
         last->next = new;
+        new->prev = last;
     }
 
-    *head = new;
 
 	return (new);
 }
