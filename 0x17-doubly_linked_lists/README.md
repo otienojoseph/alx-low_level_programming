@@ -8,3 +8,4 @@
 - 5-get_dnodeint - Function that returns the nth node of dlistint_t linked list
 6-sum_dlistint - Returns the sum of all the data(n) of a list
 - 7-insert_dnodeint - Function that inserts a new node at a given index
+- 8-delete_dnodeint - Function that deletes a node at a specified index
