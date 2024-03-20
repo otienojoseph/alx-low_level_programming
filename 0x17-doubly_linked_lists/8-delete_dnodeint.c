@@ -26,14 +26,24 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		return (1);
 	}
 
+	/* traverse list to find node at index */
 	while (current != NULL && position < index)
 	{
 		current = current->next;
 		position++;
 	}
 
+	/* index out of range */
 	if (current == NULL && index > position)
 		return (-1);
+
+	/* if deleting last node */
+	if (current->next == NULL)
+	{
+		current->prev->next = NULL;
+		free(current);
+		return (1);
+	}
 
 	current->prev->next = current->next;
 	current->next->prev = current->prev;
