@@ -30,7 +30,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		current = current->next;
 		position++;
 	}
-	printf("position: %d, current: %d\n", position, current->n);
+
 	if (current != NULL && position == index)
 	{
 		temp = current;
